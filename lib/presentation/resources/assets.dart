@@ -18,9 +18,12 @@ class IconAssets {
   String phone = '${Assets.assets}icons/phone.svg';
   String pin = '${Assets.assets}icons/pin.svg';
   String plus = '${Assets.assets}icons/plus.svg';
+  String camera = '${Assets.assets}icons/camera.svg';
 }
 
 class ImageAssets {
   String introBackground = '${Assets.assets}images/intro_background.png';
   String loginBackground = '${Assets.assets}images/login_background.png';
+  String profilePhoto = '${Assets.assets}images/profile_photo.png';
+  String map = '${Assets.assets}images/map.png';
 }

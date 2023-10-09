@@ -22,6 +22,7 @@ class ColorConstants {
   static const editBGColor = Color(0xFFFFECBA);
   static const editColor = Color(0xFF875202);
   static const errorColor = Color(0xFFFF0000);
+  static const profileColor = Color(0xFFEFEBEB);
 
   static const f4Color = Color(0xFFF4F4F4);
   static const f6Color = Color(0xFFF6F6F6);

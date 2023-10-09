@@ -9,11 +9,11 @@ class ProbabilityDonutChart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AspectRatio(
-      aspectRatio: 1.2,
+      aspectRatio: 1,
       child: PieChart(
         PieChartData(
-          sectionsSpace: 2, // Space between chart sections
-          centerSpaceRadius: 50, // Size of the center hole (donut hole)
+          sectionsSpace: 1, // Space between chart sections
+          centerSpaceRadius: 20, // Size of the center hole (donut hole)
           sections: [
             PieChartSectionData(
               value: probability, // Probability value (0 to 100)

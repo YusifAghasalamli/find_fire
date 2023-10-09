@@ -1,5 +1,5 @@
-import 'package:find_fire/presentation/pages/intro/intro.dart';
 import 'package:find_fire/presentation/pages/predict/cubit/predict_cubit.dart';
+import 'package:find_fire/presentation/pages/tabs/tabs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
           ),
           home: BlocProvider(
             create: (context) => PredictCubit(),
-            child: const IntroPage(),
+            child: const TabsPage(),
           ),
         );
       },

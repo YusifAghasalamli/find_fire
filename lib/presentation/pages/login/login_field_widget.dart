@@ -1,6 +1,5 @@
 import 'package:find_fire/presentation/components/custom_button.dart';
 import 'package:find_fire/presentation/components/custom_checkbar.dart';
-import 'package:find_fire/presentation/pages/signup/signup.dart';
 import 'package:find_fire/presentation/pages/tabs/tabs.dart';
 import 'package:find_fire/presentation/resources/resources_export.dart';
 import 'package:flutter/cupertino.dart';
